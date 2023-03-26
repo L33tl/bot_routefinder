@@ -14,7 +14,7 @@ async def bot_echo(message: types.Message):
 
 
 async def bot_echo_all(message: types.Message, state: FSMContext):
-    await message.reply('echo awdawd')
+    await message.reply('Введите /start')
 
 
 def register_echo(dp: Dispatcher):
